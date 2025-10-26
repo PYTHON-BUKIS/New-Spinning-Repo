@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Time.timeScale = 0f; // pause game
+        Time.timeScale = 0f;
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);

@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Spinning : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private float rotationSpeed = 45f;
     [SerializeField] private Transform rotateAround;
 
